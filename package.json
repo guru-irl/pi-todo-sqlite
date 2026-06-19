@@ -1,0 +1,22 @@
+{
+  "name": "pi-todo-sqlite",
+  "version": "0.1.0",
+  "description": "Durable, project-scoped SQLite todo tool for pi, mirrored into context-mode.",
+  "keywords": ["pi-package", "pi", "extension", "todo", "sqlite", "context-mode"],
+  "license": "MIT",
+  "author": "guru-irl",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guru-irl/pi-todo-sqlite.git"
+  },
+  "files": ["index.ts", "README.md"],
+  "pi": {
+    "extensions": ["index.ts"]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-ai": "*",
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*",
+    "typebox": "*"
+  }
+}
