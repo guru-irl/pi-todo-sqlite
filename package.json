@@ -1,7 +1,7 @@
 {
   "name": "pi-todo-sqlite",
-  "version": "0.1.0",
-  "description": "Durable, project-scoped SQLite todo tool for pi, mirrored into context-mode.",
+  "version": "0.2.0",
+  "description": "Durable, project- and session-scoped SQLite todo tool for pi, mirrored into context-mode.",
   "keywords": ["pi-package", "pi", "extension", "todo", "sqlite", "context-mode"],
   "license": "MIT",
   "author": "guru-irl",
